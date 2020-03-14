@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+body {
+  background-color: #3F3B4A;
+  color: #F0F3F9;
+  font-size: 62.5%;
+  letter-spacing: .2rem;
+  font-family: Microsoft PhagsPa;
+}
+li {
+  list-style-type: none;
+  line-height: 2rem;
+}
 
 
 
@@ -11,7 +22,6 @@
 
 
 
-/* sns */
 .tw-blue{
   color: #1da1f2
 }
