@@ -5,13 +5,34 @@ body {
   color: #F0F3F9;
   font-size: 62.5%;
   letter-spacing: .2rem;
-  font-family: Microsoft PhagsPa;
+  font-family: 'Century Gothic';
 }
-li {
-  list-style-type: none;
-  line-height: 2rem;
+h1, h3 {
+  font-weight: normal;
 }
 
+li {
+  list-style-type: none;
+  position: relative;
+  line-height: 2rem;
+}
+li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 1.4em;
+  left: -1em;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.title {
+  font-size: 2.5rem;
+  margin: 80px auto 100px 30px;
+}
 
 
 
