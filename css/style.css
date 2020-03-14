@@ -9,18 +9,20 @@ body {
 }
 h1, h3 {
   font-weight: normal;
+  letter-spacing: .5rem;
 }
 
 li {
   list-style-type: none;
   position: relative;
   line-height: 2rem;
+  font-size: .7rem;
 }
-li::after {
+.profile li::after, .qua li::after {
   display: block;
   content: '';
   position: absolute;
-  top: 1.4em;
+  top: 1.2em;
   left: -1em;
   width: 6px;
   height: 6px;
@@ -33,16 +35,14 @@ li::after {
   font-size: 2.5rem;
   margin: 80px auto 100px 30px;
 }
-
-
-
-
-
-
-
-
-
-
+.profiletitle, .quatitle, .snstitle {
+  font-size: 1.5rem;
+  margin: 80px auto 50px;
+  text-align: center;
+}
+.sns {
+  display: flex;
+}
 .tw-blue{
   color: #1da1f2
 }
