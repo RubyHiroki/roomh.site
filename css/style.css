@@ -42,7 +42,8 @@ li {
 }
 .sns {
   display: flex;
-  padding: 0;
+  justify-content: space-between;
+  padding: 0 105px;
 }
 .tw-blue{
   color: #1da1f2;
@@ -52,4 +53,14 @@ li {
 }
 .fa-github {
   color: black;
+}
+
+@media screen and (min-width:768px) {
+  .profiletitle, .quatitle, .snstitle {
+    text-align: start;
+    margin-left: 30px;
+  }
+  .sns {
+    justify-content: start;
+  }
 }
