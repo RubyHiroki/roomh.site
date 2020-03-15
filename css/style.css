@@ -42,6 +42,7 @@ li {
 }
 .sns {
   display: flex;
+  padding: 0;
 }
 .tw-blue{
   color: #1da1f2;
