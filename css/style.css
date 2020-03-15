@@ -55,12 +55,19 @@ li {
   color: black;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:550px) {
   .profiletitle, .quatitle, .snstitle {
     text-align: start;
     margin-left: 30px;
   }
   .sns {
+    padding: 0 150px;
+  }
+}
+@media screen and (min-width:768px) {
+  .sns {
     justify-content: start;
+    padding: 0;
+    margin-left: 30px;
   }
 }
