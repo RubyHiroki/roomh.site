@@ -20,4 +20,7 @@ $(function () {
     });
     $('.main').appendTo('.main').hide().fadeIn(1000);
   }, 13000);
+
+  // .mainのjs
+  
 });

@@ -8,7 +8,7 @@ body {
   font-family: 'Century Gothic';
 }
 .opening {
-  font-family: 'Monotype Corsiva';
+  font-family: 'Reenie Beanie', cursive;
   background-image: url("../img/cotton01.jpg");
   color: #F0F3F9;
   height: 100vh;
@@ -27,7 +27,9 @@ body {
   display: none;
 }
 .opening p {
-  font-size: .9rem;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -101,5 +103,9 @@ li {
   }
   .sns li {
     margin-right: 20px;
+  }
+  .opening p {
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 }
