@@ -11,9 +11,16 @@ body {
   background-image: url("../img/cotton01.jpg");
   color: black;
   height: 100vh;
+  position: relative;
 }
 .opening p {
   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 h1, h3 {
   font-weight: normal;
