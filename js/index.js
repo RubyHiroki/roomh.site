@@ -2,19 +2,22 @@ $(function () {
   $('.opening p').css({opacity: '0'});
   setTimeout(function () {
     $('.first').stop().animate({opacity: '1'}, 3000);
-  }, 1000);
+  }, 300);
   setTimeout(function () {
     $('.first').stop().animate({opacity: '0'}, 3000);
-  }, 7000);
+  }, 3300);
   setTimeout(function () {
     $('.second').stop().animate({opacity: '1'}, 3000);
-  }, 9000);
+  }, 6300);
   setTimeout(function () {
     $('.second').stop().animate({opacity: '0'}, 3000);
-  }, 15000);
+  }, 9300);
 
   setTimeout(function () {
-    $('.opening').css('display', 'none');
-    $('.main').css('display', 'block');
-  }, 17000);
+    $('.opening').fadeOut(1000, function () {
+      $(this).remove();
+    });
+    $('.main').appendTo('.main').hide().fadeIn(1000);
+    // $('.main').css('display', 'block');
+  }, 13000);
 });
