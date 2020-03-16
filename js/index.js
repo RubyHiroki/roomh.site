@@ -1,6 +1,6 @@
 $(function() {
-  $('.main').css({opacity: '0'});
+  $('.main').css({display: 'none'});
   setTimeout(function() {
-  $('.main').stop().animate({opacity: '1'}, 1000);
+  $('.main').stop().animate({display: 'block'}, 1000);
 }, 3000);
 });

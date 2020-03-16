@@ -7,6 +7,10 @@ body {
   letter-spacing: .2rem;
   font-family: 'Century Gothic';
 }
+.opening {
+  background-image: url("../img/cotton01.jpg");
+  color: black;
+}
 h1, h3 {
   font-weight: normal;
   letter-spacing: .5rem;
