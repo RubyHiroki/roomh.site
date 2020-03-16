@@ -96,6 +96,9 @@ li {
   }
 }
 @media screen and (min-width:768px) {
+  li {
+    font-size: 1.5rem;
+  }
   .sns {
     justify-content: start;
     padding: 0;
@@ -103,6 +106,7 @@ li {
   }
   .sns li {
     margin-right: 20px;
+    font-size: 1.1rem;
   }
   .opening p {
     font-size: 2.5rem;
@@ -110,9 +114,6 @@ li {
   }
   h1, h3 {
     font-size: 5rem;
-  }
-  li {
-    font-size: 1.5rem;
   }
   .profile li::after, .qua li::after {
     top: .6em;
