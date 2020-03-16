@@ -17,6 +17,7 @@ body {
   display: none;
 }
 .opening p {
+  font-size: .9rem;
   margin: 0;
   position: absolute;
   top: 50%;

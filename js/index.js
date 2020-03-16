@@ -1,4 +1,5 @@
 $(function () {
+  // .openingのjs
   $('.opening p').css({opacity: '0'});
   setTimeout(function () {
     $('.first').stop().animate({opacity: '1'}, 3000);
@@ -18,6 +19,5 @@ $(function () {
       $(this).remove();
     });
     $('.main').appendTo('.main').hide().fadeIn(1000);
-    // $('.main').css('display', 'block');
   }, 13000);
 });
