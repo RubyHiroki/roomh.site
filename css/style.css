@@ -13,6 +13,9 @@ body {
   height: 100vh;
   position: relative;
 }
+.main {
+  display: none;
+}
 .opening p {
   margin: 0;
   position: absolute;
