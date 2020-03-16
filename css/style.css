@@ -5,7 +5,7 @@ body {
   color: #F0F3F9;
   font-size: 62.5%;
   letter-spacing: .2rem;
-  font-family: 'Century Gothic';
+  font-family: 'Reenie Beanie', cursive,'Overlock', cursive;
 }
 .opening {
   font-family: 'Reenie Beanie', cursive;
@@ -107,5 +107,17 @@ li {
   .opening p {
     font-size: 2.5rem;
     line-height: 3rem;
+  }
+  h1, h3 {
+    font-size: 5rem;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  .profile li::after, .qua li::after {
+    top: .6em;
+    left: -1em;
+    width: 6px;
+    height: 6px;
   }
 }
