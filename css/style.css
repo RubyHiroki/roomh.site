@@ -10,6 +10,10 @@ body {
 .opening {
   background-image: url("../img/cotton01.jpg");
   color: black;
+  height: 100vh;
+}
+.opening p {
+  margin: 0;
 }
 h1, h3 {
   font-weight: normal;
