@@ -8,13 +8,14 @@ body {
   font-family: 'Century Gothic';
 }
 .opening {
+  font-family: 'Monotype Corsiva';
   background-image: url("../img/cotton01.jpg");
-  color: black;
+  color: #F0F3F9;
   height: 100vh;
   position: relative;
 }
 .opening::before {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.7);
   position: absolute;
   top: 0;
   right: 0;
