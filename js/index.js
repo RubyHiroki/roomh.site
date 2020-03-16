@@ -12,4 +12,9 @@ $(function () {
   setTimeout(function () {
     $('.second').stop().animate({opacity: '0'}, 3000);
   }, 15000);
+
+  setTimeout(function () {
+    $('.opening').css('display', 'none');
+    $('.main').css('display', 'block');
+  }, 17000);
 });
