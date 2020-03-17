@@ -46,14 +46,14 @@ h1, h3 {
 li {
   list-style-type: none;
   position: relative;
-  line-height: 2rem;
+  line-height: 3.5rem;
   font-size: 1.5rem;
 }
 .profile li::after, .qua li::after {
   display: block;
   content: '';
   position: absolute;
-  top: .6em;
+  top: 1.1em;
   left: -1.5em;
   width: 6px;
   height: 6px;
@@ -116,9 +116,10 @@ li {
   }
   .profiletitle, .quatitle, .snstitle {
     font-size: 5rem;
+    line-height: 4rem;
   }
   .profile li::after, .qua li::after {
-    top: .6em;
+    top: 1.1em;
     left: -1em;
     width: 6px;
     height: 6px;
