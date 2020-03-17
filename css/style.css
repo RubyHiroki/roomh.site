@@ -47,13 +47,13 @@ li {
   list-style-type: none;
   position: relative;
   line-height: 2rem;
-  font-size: .7rem;
+  font-size: 1.5rem;
 }
 .profile li::after, .qua li::after {
   display: block;
   content: '';
   position: absolute;
-  top: 1.2em;
+  top: .6em;
   left: -1.5em;
   width: 6px;
   height: 6px;
@@ -63,11 +63,11 @@ li {
   transform: rotate(-45deg);
 }
 .title {
-  font-size: 2.5rem;
+  font-size: 5rem;
   margin: 80px auto 100px 30px;
 }
 .profiletitle, .quatitle, .snstitle {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 80px auto 50px;
   text-align: center;
 }
@@ -111,10 +111,10 @@ li {
     font-size: 2.5rem;
     line-height: 3rem;
   }
-  h1 {
+  .title {
     font-size: 10rem;
   }
-  h3 {
+  .profiletitle, .quatitle, .snstitle {
     font-size: 5rem;
   }
   .profile li::after, .qua li::after {
