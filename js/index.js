@@ -22,5 +22,22 @@ $(function () {
   }, 13000);
 
   // .mainのjs
-  
+  $('h3, li').css({opacity: '0'});
+  $('.title').textillate({
+    initialDelay: 7000,
+    autoStart: true,
+    in: {
+      effect: 'fadeInDown',
+      delayScale: 1.5,
+      delay: 50,
+      sync: false,
+      shuffle: false
+    }
+  });
+  setTimeout(function () {
+    $('h3').stop().animate({opacity: '1'}, 3000);
+  }, 15000);
+  setTimeout(function () {
+    $('li').stop().animate({opacity: '1'}, 3000);
+  }, 17000);
 });
