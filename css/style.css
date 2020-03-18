@@ -9,10 +9,11 @@ body {
 }
 .opening {
   font-family: 'Reenie Beanie', cursive;
-  background-image: url("../img/cotton01.jpg");
+  background-color: rgb(255,235,205);
   color: #F0F3F9;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 .opening::before {
   background-color: rgba(0,0,0,0.7);
